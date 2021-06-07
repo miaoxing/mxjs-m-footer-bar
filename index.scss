@@ -1,0 +1,36 @@
+.mx-footer-bar {
+  min-height: 3rem;
+  background-color: #fff;
+  z-index: 1;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+
+  &-btn {
+    flex: 1; // 全部按钮等分铺满整行
+    padding-left: 0; // 去掉默认的左右空白，以便显示更多内容（i5 显示 5 个字）
+    padding-right: 0;
+  }
+
+  &-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 3rem;
+    font-size: .75rem;
+    color: var(--mx-colors-gray-600);
+    // 移除小程序自带的按钮样式
+    line-height: 1;
+    background: none;
+    padding: 0;
+
+    > .mxi {
+      // 按钮和文字之间留出距离
+      margin-bottom: .25rem;
+    }
+  }
+}
