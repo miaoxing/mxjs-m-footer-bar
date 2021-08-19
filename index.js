@@ -1,4 +1,4 @@
-import {useEffect, useContext, useState} from 'react';
+import {useEffect, useContext} from 'react';
 import {View} from '@fower/taro';
 import {default as BaseButton} from '@mxjs/m-button';
 import clsx from 'clsx';
@@ -6,23 +6,16 @@ import './index.scss';
 import Taro from '@tarojs/taro';
 import {PageContext} from '@mxjs/m-page';
 import PropTypes from 'prop-types';
+import useId from '@accessible/use-id';
 
-let counter = 0;
-
-const FooterBar = ({className, children, id: idProp, ...props}) => {
+const FooterBar = ({className, children, ...props}) => {
   const {setCss} = useContext(PageContext);
-  const [id] = useState(() => {
-    if (typeof idProp !== 'undefined') {
-      return idProp;
-    } else {
-      return '__mx-footer-bar-' + ++counter;
-    }
-  });
+  const cls = useId(null, '__mx-footer-bar-');
 
   useEffect(() => {
     setTimeout(() => {
       const query = Taro.createSelectorQuery();
-      query.select('#' + id).boundingClientRect(rect => {
+      query.select('.' + cls).boundingClientRect(rect => {
         if (!rect) {
           return;
         }
@@ -33,7 +26,7 @@ const FooterBar = ({className, children, id: idProp, ...props}) => {
   }, []);
 
   return (
-    <View id={id} className={clsx('mx-footer-bar', className)} {...props}>{children}</View>
+    <View className={clsx('mx-footer-bar', cls, className)} {...props}>{children}</View>
   );
 };
 

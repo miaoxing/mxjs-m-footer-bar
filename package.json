@@ -17,11 +17,12 @@
     }
   },
   "dependencies": {
-    "@tarojs/components": "^3.2.10",
+    "@accessible/use-id": "^1.1.2",
     "@fower/taro": "^1.16.0",
-    "@tarojs/taro": "^3.2.10",
     "@mxjs/m-button": "^0.1.0",
     "@mxjs/m-page": "^0.1.0",
+    "@tarojs/components": "^3.2.10",
+    "@tarojs/taro": "^3.2.10",
     "clsx": "^1.1.1",
     "prop-types": "^15.7.2"
   },
