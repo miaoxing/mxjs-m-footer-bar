@@ -17,14 +17,14 @@
     }
   },
   "dependencies": {
-    "@accessible/use-id": "^1.1.2",
     "@fower/taro": "^1.16.0",
     "@mxjs/m-button": "^0.1.0",
     "@mxjs/m-page": "^0.1.0",
     "@tarojs/components": "^3.2.10",
     "@tarojs/taro": "^3.2.10",
     "clsx": "^1.1.1",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "use-uid": "^0.1.0"
   },
   "devDependencies": {
     "@miaoxing/dev": "^7.0.1",

@@ -6,11 +6,11 @@ import './index.scss';
 import Taro from '@tarojs/taro';
 import {PageContext} from '@mxjs/m-page';
 import PropTypes from 'prop-types';
-import useId from '@accessible/use-id';
+import useUid from 'use-uid';
 
 const FooterBar = ({className, children, ...props}) => {
   const {setCss} = useContext(PageContext);
-  const cls = useId(null, '__mx-footer-bar-');
+  const cls = useUid('__mx-footer-bar-');
 
   useEffect(() => {
     setTimeout(() => {
