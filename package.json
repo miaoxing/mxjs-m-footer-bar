@@ -33,6 +33,7 @@
   },
   "ciDependencies": {
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
     "@miaoxing/dev": "miaoxing/dev",
     "@mxjs/m-button": "miaoxing/mxjs-m-button",
     "@mxjs/m-page": "miaoxing/mxjs-m-page",
