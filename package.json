@@ -24,7 +24,7 @@
     "@tarojs/taro": "^3.2.10",
     "clsx": "^1.1.1",
     "prop-types": "^15.7.2",
-    "use-uid": "^0.1.0"
+    "use-uid": "^1.0.0"
   },
   "devDependencies": {
     "@miaoxing/dev": "^7.0.1",

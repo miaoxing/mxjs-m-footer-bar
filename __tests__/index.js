@@ -1,7 +1,12 @@
 import FooterBar from '..';
 import {render} from '@testing-library/react';
+import {reset} from 'use-uid';
 
 describe('FooterBar', () => {
+  beforeEach(() => {
+    reset();
+  });
+
   test('basic', () => {
     const {container} = render(<FooterBar>test</FooterBar>);
     expect(container).toMatchSnapshot();
