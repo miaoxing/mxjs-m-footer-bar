@@ -3,7 +3,7 @@
 exports[`FooterBar FooterBar.Button 1`] = `
 <div>
   <taro-view-core
-    class="mx-footer-bar"
+    class="mx-footer-bar __mx-footer-bar-1"
   >
     <taro-button-core
       class="mx-btn mx-footer-bar-btn"
@@ -17,7 +17,7 @@ exports[`FooterBar FooterBar.Button 1`] = `
 exports[`FooterBar FooterBar.Icon 1`] = `
 <div>
   <taro-view-core
-    class="mx-footer-bar"
+    class="mx-footer-bar __mx-footer-bar-1"
   >
     <taro-button-core
       class="mx-btn mx-footer-bar-icon"
@@ -31,7 +31,7 @@ exports[`FooterBar FooterBar.Icon 1`] = `
 exports[`FooterBar basic 1`] = `
 <div>
   <taro-view-core
-    class="mx-footer-bar"
+    class="mx-footer-bar __mx-footer-bar-1"
   >
     test
   </taro-view-core>
