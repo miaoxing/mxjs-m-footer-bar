@@ -35,6 +35,7 @@
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
     "@miaoxing/dev": "miaoxing/dev",
     "@mxjs/m-button": "miaoxing/mxjs-m-button",
-    "@mxjs/m-page": "miaoxing/mxjs-m-page"
+    "@mxjs/m-page": "miaoxing/mxjs-m-page",
+    "@mxjs/m-ret": "miaoxing/mxjs-m-ret"
   }
 }
