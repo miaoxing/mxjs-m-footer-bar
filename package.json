@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "@fower/taro": "^1.16.0",
+    "@fower/taro": "^1.52.0",
     "@mxjs/m-button": "^0.1.0",
     "@mxjs/m-page": "^0.1.0",
     "@tarojs/components": "^3.2.10",
