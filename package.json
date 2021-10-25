@@ -20,8 +20,8 @@
     "@fower/taro": "^1.52.0",
     "@mxjs/m-button": "^0.1.0",
     "@mxjs/m-page": "^0.1.0",
-    "@tarojs/components": "^3.2.10",
-    "@tarojs/taro": "^3.2.10",
+    "@tarojs/components": "^3.3.10",
+    "@tarojs/taro": "^3.3.10",
     "clsx": "^1.1.1",
     "prop-types": "^15.7.2",
     "use-uid": "^1.0.0"
