@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/m-footer-bar",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -18,8 +18,8 @@
   },
   "dependencies": {
     "@fower/taro": "^1.52.0",
-    "@mxjs/m-button": "^0.1.0",
-    "@mxjs/m-page": "^0.1.0",
+    "@mxjs/m-button": "^0.1.1",
+    "@mxjs/m-page": "^0.2.0",
     "@tarojs/components": "^3.3.10",
     "@tarojs/taro": "^3.3.10",
     "clsx": "^1.1.1",
@@ -27,7 +27,7 @@
     "use-uid": "^1.0.0"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^7.0.1",
+    "@miaoxing/dev": "^8.0.0",
     "@testing-library/react": "^11.2.6",
     "react": "^17.0.2"
   },
