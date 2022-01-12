@@ -1,3 +1,27 @@
+## [0.1.2](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v0.1.1...v0.1.2) (2022-01-12)
+
+
+### Bug Fixes
+
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.59.0` ([2e3c531](https://github.com/miaoxing/mxjs-m-footer-bar/commit/2e3c5317fedff100643e1f28cfb202cf26eb7f7b))
+
+
+### Features
+
+* **taro:** 限制 taro 为 3.3.x，3.4 有 BREAKING CHANGES ([19ab043](https://github.com/miaoxing/mxjs-m-footer-bar/commit/19ab043d5b52e95a597a714e8da3353508389716))
+* 更新 `[@fower](https://github.com/fower)` 到 `^1.61` ([7b7a435](https://github.com/miaoxing/mxjs-m-footer-bar/commit/7b7a435c8d7da20041ff3b804459ee3b8db9ec41))
+* 更新 taro 到 `^3.3.20` ([2648292](https://github.com/miaoxing/mxjs-m-footer-bar/commit/264829291442df38eaba5a8f4d8ba1b158dae221))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/m-button:** upgrade from `0.1.1` to `0.1.2`
+* **@mxjs/m-page:** upgrade from `0.2.0` to `0.2.1`
+* **@miaoxing/dev:** upgrade from `8.0.0` to `8.0.1`
+
 ## [0.1.1](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v0.1.0...v0.1.1) (2021-10-28)
 
 
