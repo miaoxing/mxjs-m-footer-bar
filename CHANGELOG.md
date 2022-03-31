@@ -1,3 +1,19 @@
+## [0.1.4](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v0.1.3...v0.1.4) (2022-03-31)
+
+
+### Features
+
+* 更新 `fower` 到 `^1.70.0` ([a17568f](https://github.com/miaoxing/mxjs-m-footer-bar/commit/a17568ff368b745d60fbe740b34e1ec1f15c718f))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/m-button:** upgrade from `0.1.3` to `0.1.4`
+* **@mxjs/m-page:** upgrade from `0.2.2` to `0.2.3`
+
 ## [0.1.3](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v0.1.2...v0.1.3) (2022-02-05)
 
 
