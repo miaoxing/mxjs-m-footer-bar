@@ -1,3 +1,15 @@
+## [1.1.1](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v1.1.0...v1.1.1) (2023-05-31)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/m-button:** upgrade from `1.1.0` to `1.1.1`
+* **@mxjs/m-page:** upgrade from `1.1.0` to `1.1.1`
+* **@miaoxing/dev:** upgrade from `8.2.0` to `8.2.1`
+
 # [1.1.0](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v1.0.2...v1.1.0) (2023-01-01)
 
 
