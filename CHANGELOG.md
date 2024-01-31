@@ -1,3 +1,19 @@
+# [1.2.0](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v1.1.6...v1.2.0) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([e64e240](https://github.com/miaoxing/mxjs-m-footer-bar/commit/e64e240a017e0491fa4427aa5f37230cf232fd0c))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/m-button:** upgrade from `1.1.6` to `1.2.0`
+* **@mxjs/m-page:** upgrade from `1.1.6` to `1.2.0`
+
 ## [1.1.6](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v1.1.5...v1.1.6) (2024-01-08)
 
 
