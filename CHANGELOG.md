@@ -1,3 +1,13 @@
+## [1.2.3](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v1.2.2...v1.2.3) (2024-05-30)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/m-page:** upgrade from `1.2.2` to `1.2.3`
+
 ## [1.2.2](https://github.com/miaoxing/mxjs-m-footer-bar/compare/v1.2.1...v1.2.2) (2024-05-01)
 
 
